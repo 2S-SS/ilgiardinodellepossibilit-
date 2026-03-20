@@ -1,0 +1,118 @@
+ <html>
+ <head>
+   <title> Il giardino delle possibilità </title>
+ 
+   <style>
+   slider {
+   width: 100%; 
+   overflow: hidden;
+   background: #111;
+   }
+   
+   .slide-track {
+    display: flex;
+	width: calc(250px *8);
+	animation: scroll 20s linear infinite;
+	}
+	
+	.slide {
+	 width:250px;
+	 flex-shrink: 0;
+	 padding; 10px;
+	 } 
+	 
+	 .slide img {
+	  width: 100%;
+	  height: 160px;
+	  object-fit: cover;
+	  border-radius: 12px;
+	  } 
+	  
+	 @keyframes scroll {
+	  0% {
+	   transform: translateX (0%);
+	   }
+	   100% {
+	   transform: translateX (-100%);
+	   }
+	   }
+	 </style>
+   </head>
+   <body bgcolor ="#add8e6">
+   
+   
+   <h1> 
+     <img src="titolodonne.jpg"  alt="titolodonne" style="width: 1000px; height: auto;"> 
+	</h1> 
+	<br>
+ 
+	   
+	   <table>
+  <tr>
+    <th> <img src="casadonne.jpg" width="400" height="400" alt="Descrizione" style=”float:left;margin: 10px"></th>
+	<div>
+    <th align="justify"> 
+	
+	   La casa IL GIARDINO DELLE POSSIBILITA' <br> è un luogo per donne che hanno subito violenza di ogni forma, come fisica, <br>
+	   psicologica, verbale, sessuale, economica  che unisce protezione, riservatezza e rinascita.
+	   Non è solo un edificio:<br> è uno spazio sicuro dove ricominciare, si trova in una radura nascosta tra alberi alti e silenziosi.
+	   Il bosco crea <br> una barriera naturale contro il mondo esterno: attutisce i rumori, protegge la privacy e offre un senso di <br> isolamento rassicurante. <br> 
+	   <br>
+	   COME ARRIVARCI:<br>
+	   Un sentiero sterrato conduce all'ingresso, abbastanza discreto da non attirare attenzione, ma ben curato per essere sicuro.<br>
+	   <br>
+	   La casa è semplice, accogliente e in legno. Ha finestre ampie ma protette, un piccolo portico con poltrone e un grande giardino con orto e spazi per coltivare fiori. <br>
+	   L'interno dispone di una zona comune, il soggiorno, con tanti divani, coperte calde, una libreria e un camino. <br> Sono presenti anche una cucina condivisa; camere private e una stanza per colloqui per gli incontri con psicologhe <br> o assistenti sociali.
+	   E' un luogo dove le donne possono sentirsi al sicuro, ricostruire la propria autostima e ricevere <br> supporto psicologico
+	</th>
+	</table>
+	<tr>
+	<br>
+	<br>
+	<b>Per accedere in modo gratuito e riservato contatta il <span style="font-size: 24px;">1522</span> - numero nazionale Antiviolenza e Stalking.<br>
+	Attivo 24h su 24, 7 giorni su 7, contattabile da telefono fisso o cellulare. Non tracciabile e disponibile anche via chat e sul sito ufficiale, <br> operatrici specializzate e multilingue. <br>
+	Ti metteranno in contatto con il centro più vicino e valuteranno con te l'inserimento in una casa rifugio. 
+	</tr> <br>
+	<br>
+	
+	<div class="scroll-container">
+  <div class="scroll-content">
+    <img src="donne.png" width="285" height="200">
+    <img src="fotodonne.png" width="250" height="200">
+    <img src="murodonne.png" width="250" height="200">
+    <img src="occhio.png" width="250" height="200">
+    <img src="vdonne.png" width="250" height="200">
+
+    <!-- duplicati per loop continuo -->
+    <img src="donne.png" width="285" height="200">
+    <img src="fotodonne.png" width="250" height="200">
+    <img src="murodonne.png" width="250" height="200">
+    <img src="occhio.png" width="250" height="200">
+    <img src="vdonne.png" width="250" height="200">
+  </div>
+</div>
+
+<style>
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-content {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+</style>
+</body>
+   </html>
